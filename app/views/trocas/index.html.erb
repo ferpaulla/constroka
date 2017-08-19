@@ -16,9 +16,9 @@
   <tbody>
     <% @trocas.each do |troca| %>
       <tr>
-        <td><%= troca.usuario_doador_id %></td>
-        <td><%= troca.usuario_receptor_id %></td>
-        <td><%= troca.material_id %></td>
+        <td><%= troca.usuario_doador.nome %></td>
+        <td><%= troca.usuario_receptor.nome %></td>
+        <td><%= troca.material.titulo %></td>
         <td><%= troca.raiting %></td>
         <td><%= link_to 'Show', troca %></td>
         <td><%= link_to 'Edit', edit_troca_path(troca) %></td>

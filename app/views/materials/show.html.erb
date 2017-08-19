@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @material.titulo %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @material.descricao %>
+</p>
+
+<p>
+  <strong>Quantidade:</strong>
+  <%= @material.quantidade %>
+</p>
+
+<p>
+  <strong>Foto:</strong>
+  <%= @material.foto %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @material.usuario_id %>
+</p>
+
+<p>
+  <strong>Pontos:</strong>
+  <%= @material.pontos %>
+</p>
+
+<%= link_to 'Edit', edit_material_path(@material) %> |
+<%= link_to 'Back', materials_path %>

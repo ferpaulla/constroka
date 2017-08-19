@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tÇðtulo: MyString
+  descricao: MyText
+  quantidade: 1
+  foto: MyString
+  usuario_id: 1
+  pontos: 1
+
+two:
+  tÇðtulo: MyString
+  descricao: MyText
+  quantidade: 1
+  foto: MyString
+  usuario_id: 1
+  pontos: 1

@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Trocas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Usuario doador</th>
+      <th>Usuario receptor</th>
+      <th>Material</th>
+      <th>Raiting</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @trocas.each do |troca| %>
+      <tr>
+        <td><%= troca.usuario_doador_id %></td>
+        <td><%= troca.usuario_receptor_id %></td>
+        <td><%= troca.material_id %></td>
+        <td><%= troca.raiting %></td>
+        <td><%= link_to 'Show', troca %></td>
+        <td><%= link_to 'Edit', edit_troca_path(troca) %></td>
+        <td><%= link_to 'Destroy', troca, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Troca', new_troca_path %>

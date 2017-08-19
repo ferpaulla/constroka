@@ -1,5 +1,7 @@
 class CreateUsuarios < ActiveRecord::Migration[5.1]
   def change
+    drop_table :usuarios
+    
     create_table :usuarios do |t|
       t.string :nome
       t.string :email
@@ -7,7 +9,7 @@ class CreateUsuarios < ActiveRecord::Migration[5.1]
       t.string :cidade
       t.string :estado
       t.integer :pontos
-      t.integer :raiting
+      t.integer :rating
 
       t.timestamps
     end

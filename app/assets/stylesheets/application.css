@@ -38,3 +38,19 @@ table{
 table tbody tr:nth-child(1n+2){
   background: #ccc;
 }
+table tbody td{
+  border: 1px solid #333;
+}
+
+a{
+  width: 45%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in .4;
+  margin: 0px auto;
+}
+a:hover{
+  background: rgba(0, 0, 0, 0.5);
+}

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170819171611) do
+ActiveRecord::Schema.define(version: 20170819200015) do
 
   create_table "materials", force: :cascade do |t|
     t.string "titulo"
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 20170819171611) do
     t.string "cidade"
     t.string "estado"
     t.integer "pontos"
-    t.integer "raiting"
+    t.integer "rating"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

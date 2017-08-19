@@ -6,8 +6,8 @@ one:
   senha: MyString
   cidade: MyString
   estado: MyString
-  pontos: 
-  raiting: 
+  pontos: 1
+  rating: 1
 
 two:
   nome: MyString
@@ -15,5 +15,5 @@ two:
   senha: MyString
   cidade: MyString
   estado: MyString
-  pontos: 
-  raiting: 
+  pontos: 1
+  rating: 1

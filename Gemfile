@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'sqlite3'
-gem 'bootstrap-sass'
+gem 'bootstrap'
 gem 'jquery-rails'
 
 
